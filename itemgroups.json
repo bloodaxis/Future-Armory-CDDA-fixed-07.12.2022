@@ -1,0 +1,81 @@
+[
+  {
+	"copy-from": "guns_pistol_milspec",
+    "id": "guns_pistol_milspec",
+    "type": "item_group",
+	"extend": { "items": [
+      { "item": "zp500", "prob": 10, "charges": [ 0, 20 ] }, 
+	  { "item": "xs3", "prob": 10 }, 
+	  { "item": "armgun", "prob": 10 }
+	]
+	}
+  },
+  {
+	"copy-from": "guns_rifle_milspec",
+    "id": "guns_rifle_milspec",
+    "type": "item_group",
+	"extend": { "items": [
+      { "item": "v85", "prob": 10 }, 
+	  { "item": "anzio20mm", "prob": 10 }, 
+	  { "item": "vss_vintorez", "prob": 10 },
+	  { "item": "port_cannon", "prob": 10 }
+	] }
+  },
+  {
+	"copy-from": "guns_energy",  
+    "id": "guns_energy",
+    "type": "item_group",
+	"extend": { "items": [
+      { "item": "eliminator", "prob": 10 }, 
+	  { "item": "va989", "prob": 10 }
+	] }
+  },
+  {
+	"copy-from": "guns_shotgun_milspec",  
+    "id": "guns_shotgun_milspec",
+    "type": "item_group",
+	"extend": { "items": [
+      { "item": "pancor_jack", "prob": 5 }, 
+	  { "item": "win_liberator", "prob": 5 }, 
+	  { "item": "mts255", "prob": 5 }
+	] }
+  },
+  {
+	"copy-from": "soa_real_weapon_decor",
+    "id": "soa_real_weapon_decor",
+    "type": "item_group",
+	"extend": { "items": [
+      { "item": "katari", "prob": 20 }, 
+	  { "item": "chalikar", "prob": 10 }, 
+	  { "item": "razor_sword", "prob": 10 },
+	  { "item": "boomerang", "prob": 10 }
+	] }
+  },
+  {
+	"copy-from": "ammo_rifle_milspec",
+    "id": "ammo_rifle_milspec",
+    "type": "item_group",
+	"extend": { "entries": [
+      { "item": "550arlov", "prob": 20 }, 
+	  { "item": "550_incendiary", "prob": 10 }, 
+	  { "item": "550_ap", "prob": 10 },
+	  { "item": "550_explosive", "prob": 15 },
+	  { "item": "20mm", "prob": 10 },
+	  { "item": "9x39", "prob": 10 },
+	  { "item": "cannonball", "prob": 10 }
+	] }
+  },
+  {
+	"copy-from": "mags_milspec",
+    "id": "mags_milspec",
+    "type": "item_group",
+	"extend": { "items": [
+      { "item": "v85mag", "prob": 10 }, 
+	  { "item": "xs3mag", "prob": 10 }, 
+	  { "item": "anziomag", "prob": 10 },
+	  { "item": "pancormag", "prob": 10 },
+	  { "item": "armgunmag", "prob": 10 },
+	  { "item": "vssmag", "prob": 10 }
+	] }
+  }
+]
